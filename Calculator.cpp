@@ -24,36 +24,36 @@ int main()
            cout << "tell me the angle for calculation Please! \n";
            cin >> t;
            t = ((t * 3.1415926535)/180);
-           if(y == "SINE" or y=="1"){
+           if(y == "SINE" or y=="1" or y=="sine" or y=="sin"){
               if(-p/2 <= t <= p/2 ){
            Result = ((t/1) - ((t*t*t)/6) +((t*t*t*t*t)/120) - ((t*t*t*t*t*t*t)/5040));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<<endl<< endl;
            }
            }
 
-           else if(y == "COSINE" or y=="2"){
+           else if(y == "COSINE" or y=="2" or y=="cosine" or y=="cos"){
            Result = (1 - ((t*t)/2) +((t*t*t*t)/24) - ((t*t*t*t*t*t)/720));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<<endl<< endl;
            }
 
-           else if(y == "TANGENT" or y=="3"){
+           else if(y == "TANGENT" or y=="3" or y=="tangent" or y=="tan"){
            Result = (((t/1) - ((t*t*t)/6) +((t*t*t*t*t)/120) - ((t*t*t*t*t*t*t)/5040))/(1 - ((t*t)/2) +((t*t*t*t)/24) - ((t*t*t*t*t*t)/720)));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<<endl<< endl;
            }
 
-           else if(y == "COTANGENT" or y=="4"){
+           else if(y == "COTANGENT" or y=="4" or y=="cotangent" or y=="cot"){
            Result =((1 - ((t*t)/2) +((t*t*t*t)/24) - ((t*t*t*t*t*t)/720)) / ((t/1) - ((t*t*t)/6) +((t*t*t*t*t)/120) - ((t*t*t*t*t*t*t)/5040)));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<<endl<< endl;
            }
 
-           else if(y == "SECANT" or y=="5"){
+           else if(y == "SECANT" or y=="5" or y=="secant" or y=="sec"){
            Result = (1/(1 - ((t*t)/2) +((t*t*t*t)/24) - ((t*t*t*t*t*t)/720)));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<<endl << endl;
            }
 
-           else if(y == "COSECANT" or y=="6"){
+           else if(y == "COSECANT" or y=="6" or y=="cosecant" or y=="cosec"){
            Result =(1/ ((t/1) - ((t*t*t)/6) +((t*t*t*t*t)/120) - ((t*t*t*t*t*t*t)/5040)));
-           cout << "I got Some results, Yipeee!\n\n" << Result<<endl;
+           cout << "I got Some results, Yipeee!\n\n" << Result<< endl<< endl;
            }
            
            
